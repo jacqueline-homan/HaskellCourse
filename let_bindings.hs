@@ -15,3 +15,7 @@ removeOdd (x : xs)
 numEven nums =
     let evenNums = removeOdd nums
     in length evenNums
+
+fancyFive = x + y
+    where x = 2
+          y = 3
