@@ -12,3 +12,7 @@ mult2 x = x * 2
 
 always7 x = 7
 always7' = const 7
+
+foo x y z = x + y + z
+foo_1_2 = foo 1 2
+
