@@ -1,9 +1,9 @@
-x = [1,2,3]
+x = [1,2,3,4,5]
 empty = []
 y = 0 : x
 x' = 1 : (2 : (3 : []))
 --y' = 6 : y
---y' = y ++ 6
+
 y' = y ++ [6]
 
 nums = [7,8]
@@ -31,6 +31,9 @@ removeOdd y' =
 --Accessing the nth element in a list
 actors = ["Steve Buscemi", "Sissy Spacek", "Harrison Ford"]
 findMe = actors !! 2
+
+actor = "Steve Buscemi"
+findMeOne = actor !! 6
 
 --removing lower-case letters from a list
 alphabet = ['A','a','B','b','C','c','D','d']
