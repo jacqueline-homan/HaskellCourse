@@ -39,3 +39,6 @@ findMeOne = actor !! 6
 alphabet = ['A','a','B','b','C','c','D','d']
 remLowerCase st = [c | c <- st, c `elem` ['A'..'Z']]
 -- in GHCi, run `remLowerCase alphabet` and observe
+
+foo :: Int -> Int
+foo x = 2*x + 1
