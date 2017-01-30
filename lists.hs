@@ -42,3 +42,5 @@ remLowerCase st = [c | c <- st, c `elem` ['A'..'Z']]
 
 foo :: Int -> Int
 foo x = 2*x + 1
+
+dups = [n * 10 | n <- x]

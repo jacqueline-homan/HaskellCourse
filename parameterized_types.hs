@@ -3,7 +3,7 @@ data Maybe a = Just a | Nothing
 -- Definition of the List type from the Haskell standard library
 data List a = Empty | Cons a (List a)
 
-data Map k a = ...
+{-data Map k a = ...-}
 
 x :: Maybe Int
 x = Nothing
