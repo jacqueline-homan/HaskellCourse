@@ -1,15 +1,16 @@
 main :: IO()
 {- to avoid errors from multiple
-declarations of main
+declarations of main, we use numbers after main -}
 
 main = do
     putStrLn "Hello world "
     putStrLn "Wakey wakey!"
--}
+
 helloToMe :: IO() 
 helloToMe = putStrLn "Hello, J"
 
-main = do
+main1 :: IO()
+main1 = do
     helloToMe
     helloToMe
     helloToMe
@@ -39,6 +40,7 @@ greetForever :: IO()
 greetForever = do
     greet
     greetForever
+    
 main4 :: IO()
 main4 = greetForever
 
